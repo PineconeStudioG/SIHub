@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>SI Hub - mobile soon</title>
+
+        <link href="css/fonts.css" type="text/css" rel="stylesheet">
+        <style>
+            body
+            {
+                text-align: center;
+                font-family: Nunito Sans, sans-serif;
+                font-weight: 600;
+                font-size: larger;
+                height: 100%;
+                padding: 3rem;
+            }
+            section
+            {
+                margin-top: 1rem;
+                font-style: italic;
+            }
+            img
+            {
+                width: 35%;
+                height: 35%;
+            }
+
+            @media screen and (max-width: 760px)
+            {
+                img
+                {
+                    width: 65%;
+                    height: 65%;
+                }
+            }
+        </style>
+        <script>
+            function onResizeFun()
+            {
+                if(window.innerWidth > 760)
+                window.location.href = "./";
+            }
+            if(window.innerWidth > 760)
+            window.location.href = "./";
+        </script>
+    </head>
+    <body onresize="onResizeFun()">
+        <main>
+            <article>
+                Mobile version of <u>SIHub</u> will be avalible soon! Stay tuned form more info!
+            </article>
+            <section>
+                <div>Soon in:</div>
+                <div><img src="img/google_play.png" alt = "Google Play Store"></div>
+            </section>
+        </main>
+    </body>
+</html>

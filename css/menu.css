@@ -1,0 +1,100 @@
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#hamburger-input{
+  display: none;
+}
+
+#hamburger-menu {
+    position: fixed;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(
+      to bottom, 
+      var(--menu-gradient-one), var(--menu-gradient-one) 20%, 
+      var(--menu-gradient-two) 20%, var(--menu-gradient-two) 40%, 
+      var(--menu-gradient-one) 40%, var(--menu-gradient-one) 60%, 
+      var(--menu-gradient-two) 60%, var(--menu-gradient-two) 80%, 
+      var(--menu-gradient-one) 80%, var(--menu-gradient-one) 100%
+    );
+}
+
+#hamburger-menu #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 22rem;
+    height: 100%;
+    background-color: var(--menu-bg-color);
+    color: var(--fonts-color);
+    transition: 0.3s;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+#sidebar-menu
+{
+    font-size: 1.2rem;
+}
+
+.menu_element
+{
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.menu_element:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#hamburger-menu h3
+{
+  font-size: 2.2rem;
+}
+
+#hamburger-menu ul
+{
+  padding-left: 0px;
+}
+
+#hamburger-menu li
+{
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+#hamburger-input:checked + #hamburger-menu #sidebar-menu
+{
+    visibility: visible;
+    left: 0;
+}
+#hamburger-input:checked ~ .overlay
+{
+   visibility: visible;
+   opacity: 0.4;
+}
+
+#hamburger-menu
+{
+    display: inline;
+}

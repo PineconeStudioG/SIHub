@@ -1,0 +1,45 @@
+article
+{
+    margin-top: 4.5rem !important;
+}
+
+iframe
+{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 45rem;
+}
+
+.video_title
+{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 23px;
+}
+
+.video_channel
+{
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px)
+{
+    iframe
+    {
+        width: 100%;
+        height: 37rem;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    iframe
+    {
+        width: 100%;
+        height: 37rem;
+    }
+}

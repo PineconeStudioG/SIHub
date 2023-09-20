@@ -1,0 +1,3 @@
+<?php
+    DEFINE("YOUTUBEAPIKEY","AIzaSyDUURXvWZS8nBIkdQlgalqZ8EmjQ_2v4MM");
+?>
