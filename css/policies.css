@@ -1,0 +1,115 @@
+:root
+{
+    --background-color: #FFFFFF;
+    --fonts-color: black;
+    --menu-bg-color: #FFFFFF;
+
+    --menu-gradient-one: black;
+    --menu-gradient-two: white;
+}
+
+body
+{
+    font-family: Nunito Sans, sans-serif;
+    font-weight: 300;
+    height: 100%;
+    background-color: var(--background-color);
+    color: var(--fonts-color);
+}
+
+.mainPageLink
+{
+    text-decoration: none; 
+    cursor: pointer;
+    color: var(--fonts-color);
+}
+
+header > img
+{
+  position: fixed;
+  right: 2rem;
+  top: 0.6rem;
+  width: 55px;
+  height: 55px;
+  z-index: -2;
+}
+
+.channel_name > h1
+{
+    font-size: 30px;
+}
+
+header > h3
+{
+  position: fixed;
+  top: 1.5rem;
+  left: 4rem;
+  padding: 5px;
+  margin: 0px;
+  z-index: -2;
+  font-size: larger;
+}
+
+.channel_name
+{
+    text-align: left;
+    cursor: pointer;
+}
+
+header
+{
+  position: fixed;
+  top: 0;
+  width: 99.99%;
+  height: 5rem;
+  background-color: var(--background-color);
+  color: var(--fonts-color);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #2c2c2c;
+}
+
+article
+{
+    padding: 1rem;
+    margin-top: 5.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer 
+{
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    width: 99.99%;
+    background-color: var(--background-color);
+    color: var(--fonts-color);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #2c2c2c;
+}
+
+footer > a
+{
+    text-decoration: none;
+    color: var(--fonts-color);
+}
+
+footer > a:hover
+{
+    text-decoration: underline;
+    color: rgb(158, 1, 158);
+    cursor: pointer;
+}
+
+article > a
+{
+    color: var(--fonts-color);
+}
+
+article > a:hover
+{
+    text-decoration: underline;
+    color: rgb(158, 1, 158);
+    cursor: pointer;
+}
