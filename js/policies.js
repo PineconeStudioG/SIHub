@@ -106,10 +106,32 @@ xhr_data.onreadystatechange = function()
                 Thank you for visiting SIHub!`;
             }else if(window.location.pathname.includes("contact"))
             {
-
+                article.innerHTML = `<b>Contact SIHub</b><br><br>
+                If you have any questions, feedback or concerns about SIHub, or if youwould like to suggest a new channel or request the delisting of your channel, please feel free to get in touch with us. We value your input and are here to assist you.
+                    <br><br><b>No Additional Terms of Usage</b><br>
+                    SIHub does not have any additional terms of usage for its users beyond these Terms. Your use of our website is subject solely to these Terms.
+                    <br><br><b>General Inquiries</b><br>
+                    For general inquiries, you can contact us at the following email adsress:
+                    <ul>
+                        <li>Email: pineconestudio@proton.me</li>
+                    </ul>
+                    <br><b>Suggest a New Channel</b><br>
+                    If you have a suggestion for a new channel that you belive should be featured on SIHub, please sue the following information:
+                    <ul>
+                        <li>Email: pineconestudio@proton.me</li>
+                        <li>Subject: New channel suggestion - [Name of the Channel]</li>
+                    </ul>
+                    In your message, please provide details about the channel you are suggesting, including its name and any relevant information that may help us evaluate your suggestion.
+                    <br><br><b>Delisting Your Channel</b><br>
+                    Creators who wish to delist their channel from SIHub can use the following information:
+                    <ul>
+                        <li>Email: pineconestudio@proton.me</li>
+                        <li>Subject: Delisting my channel</li>
+                    </ul>
+                    Please make sure to include channel name and other relevant details about your channel and your request in the email. We will promptly review your request and take necessary actions.
+                    <br>Thank you for reaching out to SIHub! `;
             }
             
-
             footer.innerHTML = `<a href = "privacyPolicy.html">Privacy policy</a> | <a href = "cookiePolicy.html">Cookie policy</a> | <a href = "termsOfUse.html">Terms of use</a> | <a href = "contact.html">Contact</a>`;
 
             document.getElementsByTagName("main")[0].appendChild(header);
