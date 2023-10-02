@@ -14,7 +14,7 @@ Project is not yet finished! It will be continuously developed and improved<br><
 Most notable improvments to come are:
  ##### - dedicated Android mobile app
 Minor fixes to do:
-  - creating Contact page, so the project could be published publicly for broad use
+  - cfixing disappearing theme change icon when index.html is loading in dark theme
 
  # Publishing
 SIHub will be published for public use as soon as all major and minor known fixes are done. Until then, all IT savvy people can test it out based on contents this repository
