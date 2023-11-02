@@ -13,6 +13,3 @@ This project was developed using HTML, CSS, JavaScript and PHP and tested on too
 Project  will be continuously developed and improved<br>
 Minor fixes to do:
   - fixing disappearing theme change icon when index.html is loading in dark theme
-
- # Publishing
-SIHub is avalible to all internet users at [sihub.szyszyszyszka.pl](https://sihub.szyszyszyszka.pl). Enjoy and do the hard work!
