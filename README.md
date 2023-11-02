@@ -10,9 +10,7 @@ SIHub is not an independent platform - it takes selected YouTube channels and th
 This project was developed using HTML, CSS, JavaScript and PHP and tested on tools provided by [XAMPP v3.3.0](https://www.apachefriends.org/)
 
 # Roadmap
-Project is not yet finished! It will be continuously developed and improved<br><br>
-Most notable improvments to come are:
- ##### - dedicated Android mobile app
+Project  will be continuously developed and improved<br>
 Minor fixes to do:
   - fixing disappearing theme change icon when index.html is loading in dark theme
 
