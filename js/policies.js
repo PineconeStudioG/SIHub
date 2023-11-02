@@ -33,7 +33,7 @@ xhr_data.onreadystatechange = function()
                 article.innerHTML = `<b>Privacy Policy for SIHub</b>
             <br><b><i>Last Updated: 6.10.2023</i></b><br>
             <br><b>Introduction</b><br>
-            Welcome to <i><b>SIHub!</b></i> This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, located at <a href = "https://sihub.pineentr.com" target = "_blank">sihub.pineentr.com</a>. We respect your privacy and are committed to safeguarding your personal data.
+            Welcome to <i><b>SIHub!</b></i> This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website, located at <a href = "https://sihub.szyszyszyszka.pl" target = "_blank">sihub.szyszyszyszka.pl</a>. We respect your privacy and are committed to safeguarding your personal data.
             <br><br><b>Information We Collect</b><br>
             <ul>
                 <li>Optional IP Logs: Our hosting service may collect and maintain logs of IP addresses that access our website. These logs are maintained for security and performance monitoring purposes. We do not use these logs to personally identify you.</li>
@@ -60,7 +60,7 @@ xhr_data.onreadystatechange = function()
                 article.innerHTML = `<b>Cookie Policy for SIHub</b>
                 <br><b><i>Last Updated: 6.10.2023</i></b><br>
                 <br><b>Introduction</b><br>
-                Welcome to <i><b>SIHub!</b></i> This website, located at <a href = "https://sihub.pineentr.com" target = "_blank">sihub.pineentr.com</a>, (referred to as "we," "us," or "our") uses cookies to enhance your browsing experience. This Cookie Policy explains how we use cookies on our website and how you can manage your cookie preferences.
+                Welcome to <i><b>SIHub!</b></i> This website, located at <a href = "https://sihub.szyszyszyszka.pl" target = "_blank">sihub.szyszyszyszka.pl</a>, (referred to as "we," "us," or "our") uses cookies to enhance your browsing experience. This Cookie Policy explains how we use cookies on our website and how you can manage your cookie preferences.
                 <br><br><b>What Are Cookies?</b><br>
                 Cookies are small text files that are stored on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners.
                 <br><br><b>Our Use of Cookies</b><br>
@@ -82,7 +82,7 @@ xhr_data.onreadystatechange = function()
                 article.innerHTML = `<b>Terms of Service for SIHub</b>
                 <br><b><i>Last Updated: 6.10.2023</i></b><br>
                 <br><b>Introduction</b><br>
-                Welcome to <i><b>SIHub!</b></i> These Terms of Service ("Terms") outline the terms and conditions governing your use of our website, located at <a href = "https://sihub.pineentr.com" target = "_blank">sihub.pineentr.com</a>. By accessing or using our website, you agree to comply with these Terms.
+                Welcome to <i><b>SIHub!</b></i> These Terms of Service ("Terms") outline the terms and conditions governing your use of our website, located at <a href = "https://sihub.szyszyszyszka.pl" target = "_blank">sihub.szyszyszyszka.pl</a>. By accessing or using our website, you agree to comply with these Terms.
                 <br><br><b>No Additional Terms of Usage</b><br>
                 SIHub does not have any additional terms of usage for its users beyond these Terms. Your use of our website is subject solely to these Terms.
                 <br><br><b>Content Sources</b><br>
