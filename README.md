@@ -17,4 +17,4 @@ Minor fixes to do:
   - fixing disappearing theme change icon when index.html is loading in dark theme
 
  # Publishing
-SIHub will be published for public use as soon as all major and minor known fixes are done. Until then, all IT savvy people can test it out based on contents this repository
+SIHub is avalible to all internet users at [sihub.szyszyszyszka.pl](https://sihub.szyszyszyszka.pl). Enjoy and do the hard work!
